@@ -13,5 +13,5 @@ eureka:
     prefer-ip-address: true
     instance-id: ${spring.cloud.client.ipAddress}:${spring.application.name}:${server.port}:@project.version@
 server:
-  port: 9015
+  port: 9016
 
